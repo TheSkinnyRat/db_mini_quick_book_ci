@@ -1,0 +1,192 @@
+.menuatas{
+	width: 100%;
+	height: 50px;
+	background: #017B17;
+	float: left;
+}
+/*BUTTON*/
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '+';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*----------------------------------------------------------------------------------------*/
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: white;
+    color: black;
+}
+
+/*BUTTON END*/
+
+/*DROP DOWN*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #B50A0C;
+	color: white;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*DROP DOWN END*/
+
+.sidebar{
+	background: #0797A3;
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.sidebar .font{
+	padding: 20px;
+	border: 5px solid red;
+}
+.content1{
+	background: white;
+	align-content: center;
+	width: 100%;
+	height: auto;
+}
+.content1 .font{
+	padding: 20px;
+}
+.content{
+	background: white;
+	float: left;
+	align-content: center;
+	width: 75%;
+	height: auto;
+}
+.content .font{
+	padding: 20px;
+}
+.total_bayar{
+	color: #E30202;
+}
+.footer{
+	background: #000000;
+	float: left;
+	width: 100%;
+	height: px;
+}
+.footer .font{
+	color: white;
+	text-align: center;
+}
